@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "destroyer_of_fabric_api",
+	"version": "${version}",
+	"name": "Destroyer of Fabric API",
+	"description": "Parody mod. Not for gameplay usage.",
+	"authors": [
+		"TelepathicGrunt"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/destroyer_of_fabric_api/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"telepathicgrunt.DestroyerOfFabricAPIMod"
+		],
+		"mixinsquared": [
+			"telepathicgrunt.FabricAPIDestroyerCanceller"
+		]
+	},
+	"mixins": [
+		"destroyer_of_fabric_api.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

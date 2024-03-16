@@ -1,0 +1,1 @@
+Parody mod. Not for gameplay usage.
